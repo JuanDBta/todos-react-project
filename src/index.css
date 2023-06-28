@@ -15,6 +15,7 @@ body {
 .wrapper {
   width: 100%;
   padding: 8rem 20px 3rem;
+  
 }
 .todos {
   max-width: 580px;
@@ -55,7 +56,7 @@ body {
 }
 .submit-warning {
   font-size: 13px;
-  color: rgb(243, 62, 7);
+  color: rgb(243, 120, 83);
   margin-top: 5px;
   margin-bottom: 5px;
   display: block;

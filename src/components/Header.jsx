@@ -5,7 +5,7 @@ const Header = () => {
   const headerStyle = {
     padding: '20px 0',
     lineHeight: '1.5em',
-    color: '#aeadad',
+    color: '#b4a8a8',
     textAlign: 'center',
   };
     return (

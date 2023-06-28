@@ -1,4 +1,5 @@
 import styles from '../styles/TodoItem.module.css';
+import { FaTrash } from "react-icons/fa";
 
 const TodoItem = ({ itemProp, handleChange, delTodo }) => {
   
@@ -9,7 +10,7 @@ const TodoItem = ({ itemProp, handleChange, delTodo }) => {
                checked={itemProp.completed}
                onChange={() => handleChange(itemProp.id)}
                />
-               <button onClick={() => delTodo(itemProp.id)}>Delete</button>
+               <button onClick={() => delTodo(itemProp.id)}><FaTrash /></button>
                {itemProp.title}
              </div>
            </li>;
